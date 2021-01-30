@@ -1,0 +1,18 @@
+<?php
+	//日本で一番面積の小さい島名の変数
+	$jisland = '沖ノ鳥島';
+
+	//世界で一番面積の小さい島名の変数に$jislandの値を代入する
+	$wisland = $jisland;
+?>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+	<?php
+		echo"日本で一番面積の小さい島は、「",$island,"」です。<br>";
+		echo"世界で一番面積の小さい島も、「",$wisland,"」となっています。";
+	?>
+	</body>
+</html>
