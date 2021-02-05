@@ -15,7 +15,7 @@
 		<?php
 			echo '<img src="../cards/',$cards[$iNum],'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			//特殊文字を入れる(カード間隔を作るため)
-			echo '<img src="../cards/',$cards[$hNum],'>';
+			echo '<img src="../cards/',$cards[$hNum],'">';
 ?>
 	</body>
 </html>
